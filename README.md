@@ -30,7 +30,7 @@ Enable the following APIs : <br>
 
 Create Servies Account : <br>
 
-```python
+```bash
 GCP : IAM and admin >>> Service accounts >>> Create service account
 
 # After creating the service account, create a key
@@ -40,6 +40,32 @@ Your service account >>> KEYS >>> ADD KEY >>> CREATE NEW KEY >>> JSON
 # In Terraform, you can use .tfvars files to store your credentials instead of .tf files
 
 ```
+
+<br>
+
+Terraform command : <br>
+
+```Terraform
+
+terraform init
+# to start terraform
+
+terraform plan
+# observe before deployment
+
+terraform apply
+# confirm deployment
+
+terraform destroy
+# remove all deployment
+
+```
+
+<br>
+
+Terraform command : [more](https://developer.hashicorp.com/terraform/cli)
+
+<br>
 
 # HTML Example
 
