@@ -1,7 +1,6 @@
 # Terraform-with-GCP
-> Deploying an HTML website using Terraform.
+> Deploy a static website to Google Cloud Storage using IaC with Terraform.
 
-<br>
 
 # Architecture
 
